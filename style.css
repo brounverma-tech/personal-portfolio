@@ -208,7 +208,50 @@ section p {
 .project-card a:hover {
     text-decoration: underline;
 }
+/* Professional Background */
 
+.experience-card,
+.career-goal {
+    padding: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: #f9fafb;
+}
+
+.experience-card {
+    margin-bottom: 20px;
+}
+
+.experience-card h3,
+.career-goal h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.experience-card p,
+.career-goal p {
+    color: #4b5563;
+}
+
+.experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.experience-skills span {
+    padding: 7px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.career-goal {
+    border-left: 4px solid #111827;
+}
 /* Footer */
 
 footer {
